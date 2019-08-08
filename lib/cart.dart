@@ -4,7 +4,7 @@ import 'package:food_app/bloc/cartListBloc.dart';
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:food_app/main.dart';
 import 'package:food_app/model/foodItem.dart';
-
+///////////////
 class Cart extends StatelessWidget {
   final CartListBloc bloc = BlocProvider.getBloc<CartListBloc>();
 
